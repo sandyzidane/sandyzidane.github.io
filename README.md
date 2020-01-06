@@ -1,2 +1,3 @@
-# sandyzidane.github.io
+# sandyzidane's blog
+
 Advance Blog
