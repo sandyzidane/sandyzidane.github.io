@@ -47,9 +47,44 @@ while (nextNode != null) {
 }
 ```
 
+#### 头部插入
+
+```java
+public void insertFirst(T newData) {
+  Node<T> newNode = new Node<>(newData);
+  
+  Node<T> h = head;
+  head = newNode;
+  newNode.next = h;
+}
+```
+
+
+
 #### 尾部插入
 
-#### 头部插入
+```java
+public void insertLast(T newData) {
+  Node<T> newNode = new Node<>(newData);
+  
+  //特殊处理
+  if (head == null) {
+    head = newNode;
+    return;
+  }
+  
+  //遍历到最后一个节点
+  Node<T> nextNode = head;
+  while (nextNode.next != null) {
+    nextNode = nextNode.next;
+  }
+  nextNode.next = newNode;
+}
+```
+
+
+
+#### 指定位置插入
 
 #### 查询节点
 
