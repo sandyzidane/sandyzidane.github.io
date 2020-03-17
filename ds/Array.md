@@ -12,20 +12,20 @@
 
 ## 代码
 
-下标访问
+-   下标访问
 
 ```java
 int[] intArr = new int[]{99, 88, 77, 66, 55};
 System.out.println(intArr[0]);
 ```
 
-获取长度
+-   获取长度
 
 ```java
 System.out.println(intArr.length);
 ```
 
-遍历
+-   遍历
 
 ```java
 for (int i = 0; i < intArr.length; i++) {
@@ -33,14 +33,14 @@ for (int i = 0; i < intArr.length; i++) {
 }
 ```
 
-clone
+-   clone
 
 ```java
 int[] copyIntArr = intArr.clone();
 System.out.println(copyIntArr.length);
 ```
 
-排序
+-   排序
 
 ```java
 int[] intArr = new int[]{9, 8, 4, 5, 7};
