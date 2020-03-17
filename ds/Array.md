@@ -40,3 +40,14 @@ int[] copyIntArr = intArr.clone();
 System.out.println(copyIntArr.length);
 ```
 
+排序
+
+```java
+int[] intArr = new int[]{9, 8, 4, 5, 7};
+
+Arrays.sort(intArr);
+for (int i : intArr) {
+		System.out.println(i);
+}
+```
+
