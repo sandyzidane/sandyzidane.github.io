@@ -4,8 +4,8 @@
 -   [LinkedList](./LinkedList)
 -   Stack
 -   Queue
--   Binary Tree
--   Binary Search Tree
+-   [Binary Tree](./BinaryTree)
+-   [Binary Search Tree](./BinarySearchTree)
 -   Heap
 -   Hashing
 -   Graph
