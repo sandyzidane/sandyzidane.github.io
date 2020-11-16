@@ -1,4 +1,9 @@
-# zookeeper curator 分布式锁
+---
+layout: post
+title:  "zookeeper curator 分布式锁"
+date:   2020-11-16 10:29:06 +0800
+categories: jekyll update
+---
 
 ## 使用方式
 
