@@ -15,7 +15,7 @@ categories: jekyll update
 
 ## 参考
 
--   Javadoc: Object#wait()
--   Concurrent Programming in Java: Section 3.2.3 Guarded Waits
--   http://www.xyzws.com/javafaq/why-wait-notify-notifyall-must-be-called-inside-a-synchronized-method-block/127
--   https://blog.csdn.net/lengxiao1993/article/details/52296220
+- Javadoc: Object#wait()
+- Concurrent Programming in Java: Section 3.2.3 Guarded Waits
+- [why-wait-notify-notifyall-must-be-called-inside-a-synchronized-method-block](http://www.xyzws.com/javafaq/why-wait-notify-notifyall-must-be-called-inside-a-synchronized-method-block/127)
+- [为什么wait()/notify()需要和synchronized块搭配使用](https://blog.csdn.net/lengxiao1993/article/details/52296220)
