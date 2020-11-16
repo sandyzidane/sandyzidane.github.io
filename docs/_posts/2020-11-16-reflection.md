@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 ## 包结构
-![类图](./java-lang-reflect.png)
+![类图](/assets/img/2020-11-16-java-lang-reflect.png)
 
 ## 类之间的关系
 
